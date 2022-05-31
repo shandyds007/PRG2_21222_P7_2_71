@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="P5_71" Class="LINQ_0320210071DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DZDEKSTOP\SQLEXPRESS;Initial Catalog=P5_71;Integrated Security=True" SettingsObjectName="PRG2_21222_P7_2_71.Properties.Settings" SettingsPropertyName="P5_71ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.msprodi" Member="msprodis">
+    <Type Name="msprodi">
+      <Column Name="id_prodi" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nama_prodi" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="singkatan" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="ka_prodi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sek_prodi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
